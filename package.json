@@ -11,6 +11,12 @@
     "lint": "eslint --fix src/**/*",
     "fix": "npm run format && npm run lint"
   },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
   "dependencies": {
     "@jspsych/plugin-fullscreen": "^1.1.2",
     "@jspsych/plugin-html-keyboard-response": "^1.1.2",
