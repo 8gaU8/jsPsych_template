@@ -1,9 +1,9 @@
 # jsPsych_template
+- based on [bjoluc/jspsych-builder](https://github.com/bjoluc/jspsych-builder)
+
+## Requirements
+- Visual Studio Code
+- Docker
 
 ## How to use
-```bash
-$ npm install -g @devcontainers/cli
-$ git clone https://github.com/8gaU8/jsPsych_template
-$ cd path/to/jsPsych_template
-$ devcontainer open .
-```
+- Clone this repository and open in devcontainer
